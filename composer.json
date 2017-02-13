@@ -1,0 +1,24 @@
+{
+    "name": "urouro-n/tiny-factory",
+    "description": "A library for preparing test data.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kenta.nakai",
+            "email": "kenta.nakai@urouro.net"
+        }
+    ],
+    "keywords": ["factory", "testing"],
+    "require": {
+        "php": ">= 5.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "TinyFactory\\": "src/"
+        }
+    }
+}
